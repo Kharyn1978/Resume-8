@@ -26,7 +26,7 @@ body{
   #heading {
     font-family: sans-serif;
   }
-  
+
   #headshot{
     border: 10px solid rgb(202, 104, 38);
     border-radius: 50%;
@@ -54,7 +54,6 @@ body{
     color: rgb(229, 238, 238);
     padding: 1rem;
   
-    flex: 8;
   }
   
   #content{
@@ -80,7 +79,12 @@ body{
   
   }
 
-  @media only screen and (max-width:1000px) {
+  @media only screen and (max-width:768px) {
+    #headshot{
+      
+      display: block;
+     
+    }
     
     .main{
       display: block; 
@@ -104,6 +108,5 @@ body{
       display: block;
     }
 
-    footer {
-    display: block;
+   
   }
