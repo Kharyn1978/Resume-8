@@ -26,7 +26,7 @@ body{
   #heading {
     font-family: sans-serif;
   }
-
+  
   #headshot{
     border: 10px solid rgb(202, 104, 38);
     border-radius: 50%;
@@ -75,21 +75,15 @@ body{
     
   /* ID SECTION */
   .icons{
-    width: 40px ;
+    width: 100% ;
     height: 50px ;
   
   }
 
-  @media only screen and (max-width:768px) {
-    #headshot{
-    border: 10px solid rgb(202, 104, 38);
-    border-radius: 50%;
-   
-   
-    }
+  @media only screen and (max-width:1000px) {
     
     .main{
-      display: flex; 
+      display: block; 
       flex-direction: row;
       justify-content: space-between;
       
@@ -103,19 +97,13 @@ body{
       padding: 1rem;
       display: block; 
     }
+
     #content{
     
       width:100%;
       display: block;
-
-    
-      
     }
 
-  } 
-
-
- 
-
-   
-
+    footer {
+    display: block;
+  }
