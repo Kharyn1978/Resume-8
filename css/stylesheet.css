@@ -26,6 +26,7 @@ body{
   #heading {
     font-family: sans-serif;
   }
+
   #headshot{
     border: 10px solid rgb(202, 104, 38);
     border-radius: 50%;
@@ -79,7 +80,39 @@ body{
   
   }
 
-  
+  @media only screen and (max-width:768px) {
+    #headshot{
+    border: 10px solid rgb(202, 104, 38);
+    border-radius: 50%;
+   
+   
+    }
+    
+    .main{
+      display: flex; 
+      flex-direction: row;
+      justify-content: space-between;
+      
+    }
+
+    #sidebar {
+      
+      width: 100%;
+      text-align: center;
+      color: rgb(229, 238, 238);
+      padding: 1rem;
+      display: block; 
+    }
+    #content{
+    
+      width:100%;
+      display: block;
+
+    
+      
+    }
+
+  } 
 
 
  
